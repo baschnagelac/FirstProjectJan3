@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<!--The head tag describes our html page-->
+<head>
+    <title>Marvel Fan Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link href="/css/site.css" rel="stylesheet"/>
+</head>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">First Project</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/simple.html">Simple Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/myHero.html">My Hero</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/marvelFanPage.html">Marvel Fan Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="content">
+            <div class="container mt-3">
+                <img src="/img/Marvel_Logo.png" class="logoImage"/>
+                <h1>Welcome to my Marvel fan page!</h1>
+                <h2>What I know about Marvel</h2>
+                <p>Marvel Entertainment, LLC (formerly Marvel Enterprises) is an American entertainment company founded in June 1998 and based in New York City, New York, formed by the merger of Marvel Entertainment Group and Toy Biz. The company is a wholly owned subsidiary of The Walt Disney Company since 2009, and is mainly known for its comic books by Marvel Comics, as well as its forays into films and television/streaming shows, including those within the Marvel Cinematic Universe (MCU).</p>
+                <p>In 2009, The Walt Disney Company acquired Marvel Entertainment for US$4 billion;[1] it has been a limited liability company (LLC) since then. For financial reporting purposes, Marvel is primarily reported as part of Disney's Consumer Products segment ever since Marvel Studios' reorganization from Marvel Entertainment into Walt Disney Studios.[2]</p>
+                <h2 id="heroText">List of Heroes</h2>
+                <table>
+                    <tr class="tableHeader">
+                        <th></th>
+                        <th>Alter Ego</th>
+                        <th>Powers</th>
+                        <th>Picture  </th>
+                    </tr>
+                    <tr class="oddrow">
+                        <td>Spiderman</td>
+                        <td>Peter Parker</td>
+                        <td>Climb Walls, Super Strength, Web Slinging</td>
+                        <td>
+                            <img src="/img/spidey.jpeg" class="heroImage" />
+                        </td>
+                    </tr>
+                    <tr class="evenrow">
+                        <td>Power Man</td>
+                        <td>Luke Cage</td>
+                        <td>Unbreakable Skin, Super Strength</td>
+                        <td>
+                            <img src="/img/lukecage.png" class="heroImage" />
+                        </td>
+                    </tr>
+                    <tr class="oddrow">
+                        <td>Iron Man</td>
+                        <td>Tony Stark</td>
+                        <td>Billionare, Inventor, Genius</td>
+                        <td>
+                            <img class="heroImage" src="/img/ironman-bleeding-edge.jpg" />
+                        </td>
+                    </tr>
+                    <tr class="evenrow">
+                        <td>Captain America</td>
+                        <td>Steve Rogers</td>
+                        <td>Super Soldier, Super Strength, Cool Shield</td>
+                        <td>
+                            <img class="heroImage" src="/img/ClassicCap.png" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container-fluid bg-dark text-light text-center py-2">
+                baschnagelac@gmail.com
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
