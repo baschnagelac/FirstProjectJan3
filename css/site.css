@@ -33,6 +33,7 @@ body {
     text-shadow: 2px 1px #292929;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: yellow;
+    border-radius: 30px;
 }
 
 .tableHeader {
@@ -68,6 +69,7 @@ table {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: blue;
     background-color: #0f133d;
+    border-radius: 10px;
 }
 
     #welcomeText {
@@ -79,6 +81,7 @@ table {
         text-shadow: 2px 1px #292929;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: blue;
+        border-radius: 10px;
 }
 
 #spidermanPortrait {
@@ -111,6 +114,7 @@ table {
     font-weight: 900;
     font-style: normal;
     color: rgb(0, 0, 0);
+    
 }
 
 .bodyText {
